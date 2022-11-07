@@ -1,0 +1,109 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body
+{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg , #2251dc , #3943b7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.backguessur {
+    width: 300px;
+    height: 300px;
+    background-color:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 5px;
+}
+.backguessur .title {
+    width: 95%;
+    height: 70px;
+    background-color: #dedede;
+    top: 7px; left: 7px;
+    border-radius: 5px;
+    position: absolute;
+    text-align: center;
+}
+.backguessur .title h3 {
+    margin-top: 10px;
+    color: #212121;
+    font-size: 17px;
+}
+.backguessur .input {
+    width: 95%;
+    height: 125px;
+    background-color: transparent;
+    border: 1px solid #dedede;
+    position: absolute;
+    left: 7px; top: 82px;
+    border-radius: 5px;
+}
+.backguessur .input input {
+    width: 95%;
+    height: 45px;
+    background-color: #dedede;
+    border: none;
+    outline: none;
+    padding-left: 3px;
+    position: absolute;
+    left: 7px; top: 37px;
+    border-radius: 2px;
+}
+.backguessur .input label {
+    position: absolute;
+    margin: 52px 0 0 10px;
+    z-index: 1;
+    font-size: 13px;
+    transition: 0.5s;
+}
+.backguessur .btn {
+    width: 90%;
+    height: 30px;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    left: 13px; top: 169px;
+    border-radius: 5px;
+}
+.backguessur .btn button {
+    width: 150px;
+    height: 25px;
+    background-color: #3943b7;
+    cursor: pointer;
+    color: #dedede;
+    border: 0;
+    outline: 0;
+}
+.backguessur .btn .delete {
+    margin-left: 10px;
+    border: 1px solid #3943b7;
+    background-color: transparent;
+    color: #3943b7;
+}
+.backguessur .ShowResult {
+    width: 95%;
+    height: 70px;
+    border: 1px dashed #dedede;
+    position: absolute;
+    left: 7px; top: 212px;
+    border-radius: 5px;
+}
+.backguessur .ShowResult b {
+    color: #212121;
+}
+.backguessur .ShowResult p {
+    color: #212121;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+}
